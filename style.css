@@ -1,0 +1,227 @@
+html,body{
+    height:100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size:1rem;
+    
+}
+.searchbarlogo-google,.searchbarlogo-googleimage,.voicesearchlogo-googleimage
+,.advanced-search-button,.leftfooter,.rightheader{
+    position:relative;
+}
+
+.searchbar, .text-box{
+    display: block;
+}
+
+.searchbarlogo-hw{
+    height:1rem;
+    width:1rem;
+}
+
+/*---------------------Index.html Buttons-----------------------*/
+
+/*to take hold of all the divs in the header class i.e The right and 
+the left header .changing display to inline to
+fit both the divs in one line*/
+.header div{
+    display: inline;
+}
+
+.header{
+    margin-bottom: 10px;
+}
+.signin-button{
+    color:white;
+    background-color: rgba(0, 89, 255, 0.74);
+    border:1px blue solid;
+    border:none;
+    padding:6px 17px;
+    border-radius: 4px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:2rem;
+   
+}
+.submit, .lucky{
+    margin:0.1rem;
+    padding:10px;
+    border:None;
+
+}
+.submit:hover, .lucky:hover{
+    border :1px rgba(0, 0, 0, 0.459) solid;
+    border-radius:5px;
+}
+
+.searchbarlogo-google{
+    left:20.6rem;
+    bottom:1.6rem;
+}
+/*--------------------------------------------------*/
+
+/*--------------------Google Images-------------------------*/
+.google-image{
+    height:5.1rem;
+    width:14rem;
+    margin-bottom:3rem;
+}
+
+.searchbarlogo-googleimage{
+    left:18.4rem;
+    bottom:1.6rem;
+}
+
+.voicesearchlogo-googleimage{
+    width:2rem;
+    height:1rem;
+    left:18.2rem;
+    bottom:1.6rem;
+}
+
+/*-----------------------------------------------------------*/
+/*-----------Common in Google and google image ----------------*/
+.rightfooter{
+    background-color: rgb(226, 225, 225);
+    padding-top:0.6rem;
+   
+}
+
+.link{
+    color:black;
+    text-decoration: none;
+    padding:4px;
+}
+a{
+    text-decoration: none;
+    margin-bottom: 0.2rem;
+}
+
+.about{
+    visibility:hidden;
+}
+.searchbar{
+    width:22rem;
+    height:2.1rem;
+    border: 1px solid rgba(0, 0, 0, 0.288);
+    border-radius: 15px;
+    position: relative;
+    outline: none;
+}
+
+.footer{
+    display:inline;  
+}
+.leftfooter{
+    float:right;
+    background-color: rgb(226, 225, 225);
+    padding-top:0.6rem;
+    
+}
+
+/*took hold of rightheader class and set the position relative and
+float to right*/
+.rightheader{
+    float:right;
+}
+/* ----------------------------------------------------------*/
+
+/*---------------------Advanced search.html---------------------*/
+.to-advanced-search{
+    margin-left:1rem;
+}
+.label{
+    padding-left:1rem;
+
+}
+.text-boxes{
+    margin:0.5rem 0rem 0.5rem 1rem;
+    padding-bottom:0.4rem;
+    outline: none;
+}
+.text-box{
+    margin:0.5rem 0rem 0.5rem 1rem;
+    padding-bottom:0.4rem;
+    width:24.5rem;
+    font-size: 1rem;
+    outline: none;
+}
+select{
+    margin:0.5rem 0rem 0.5rem 1rem;
+    padding-bottom:0.4rem;
+    width:25rem;
+    font-size: 0.8rem !important;
+    font-weight: bold;
+    display:block;
+    padding-top:5px;
+    outline: none;
+    background-color: rgb(218, 213, 213);
+}
+.advanced-search-button{
+    margin:1rem;
+    padding:0.5rem 1.5rem ;
+    color:white;
+    background-color: blue;
+    border-color: rgb(15, 15, 182);
+    border-radius:0.5rem;
+    left:15rem;
+
+}
+.footer-as{
+    margin:2rem 0;
+}
+
+p{
+    font-size:7rem;
+    color:red;
+}
+/* for styling the heading tags*/
+h2{
+    color:red;
+    margin-left:3rem;
+}
+h4,h3{
+    font-weight:200;
+    margin-left: 1rem;
+}
+
+/*----------------------------------------------------------*/
+
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin:0;
+    padding:0;
+    height:90%;  
+}
+
+.logo,.bar,.buttons{
+    width:auto;
+}
+
+
+
+@media screen and (min-width:1000px) {
+    .searchbar{
+        width:35rem;
+    }
+    .searchbarlogo-google{
+        left:33.6rem;
+        bottom:1.6rem;
+    }
+    .searchbarlogo-googleimage{
+        left:31.1rem;
+        bottom:1.6rem;
+    }
+    
+    .voicesearchlogo-googleimage{
+        left:31.1rem;
+        bottom:1.6rem;
+    }
+}
+
