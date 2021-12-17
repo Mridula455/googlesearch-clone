@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   </head>
   <style>
@@ -34,8 +35,11 @@
         <div class="bar">
           <input class="searchbar" type="text" name="q" autofocus=""/>
           <input type="hidden" name="tbm" value="isch" />
-          <img class="voicesearchlogo-googleimage"src="pictures/audiosearch.png" alt="audio">
-          <img class="searchbarlogo-googleimage searchbarlogo-hw" id="searchlogo-googleimage"src="pictures/googlesearch.png"name="q" alt="search">
+          <div class="searchbarlogo-googleimage searchbarlogo-hw">
+            <button class="search-button" type="submit">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
         </div>
       </form>
     </div>
@@ -54,3 +58,4 @@
     <script src="index.js" charset="utf-8"></script>
   </body>
 </html>
+
