@@ -2,7 +2,7 @@
 
 This project is a google search clone. It is developed using Html, Css and a little javaScript .
 
-Check It Out At : 
+Check It Out At :  https://mridula455.github.io/googlesearch-clone/
 
 This Project has the same ability as Google search . It has the same functionality like google and uses the orignal google search engine for the queries.
 
