@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <style>
+    body,html{
+      overflow: hidden;
+    }
+  </style>
+  <body>
+    <!--creating the header navigation with two divs left and right-->
+    <div class="header">
+      <div class="leftheader">
+        <a class="link about" href="https://about.google/" target="_blank">About</a>
+      </div>
+    
+      <div class="rightheader">
+        <a class="link" href="googleimages.html" target="_blank">Images</a>
+        <a class="link" href="Advanced_s.html" target="_blank">Advanced Search</a>
+        <button type="button" class="signin-button"value="sign-in" onclick="window.location='https://myaccount.google.com/' ">Sign-In</button>
+      </div>
+    </div>
+    <!--Creating the main search div with three divs one with logo and
+    text seach bar and another is for buttons-->
+    <div class="main">
+      <div class="logo">
+        <img src = "pictures/googleimage.png" alt="google-image">
+      </div>
+
+      <form class="googleform" action="https://www.google.com/search">
+        <div class="bar">
+          <input class="searchbar" type="text" name="q">
+          <img class="searchbarlogo-google searchbarlogo-hw" src="pictures/googlesearch.png"alt="search" name="q">
+        </div>
+        <div class="buttons">
+          <input type="submit"  class="submit" value="Google Search">
+          <button type="button" class="lucky"value="I'm Feeling Lucky" onclick="window.location='https://www.google.com/doodles' ">I'm Feeling Lucky</button>
+        </div>
+      </form>
+    </div>
+
+    <!--Footer div for containing the links in footer .Contains two divs one with
+    leftfooter info and another with right footer info-->
+    <div class="footer">
+      <div class="leftfooter">
+        <a class="link" href ="https://ads.google.com/">Advertising</a>
+        <a class="link" href ="https://www.google.com/intl/en_in/search/howsearchworks/">How Search works</a>
+      </div>
+      <div class="rightfooter">
+        <a class="link" href ="https://safety.google/">Privacy</a>
+        <a class="link" href ="https://policies.google.com/">Terms</a>
+        <a class="link" href ="https://support.google.com/accounts/answer/3118621?hl=en">Settings</a>
+      </div>
+    </div>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
